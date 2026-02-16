@@ -1512,6 +1512,11 @@ body.offcanvas-open {
   border-right: 30px solid #fff;
 }
 
+.hero-slide-item img {
+  width: 100%;
+  height: 100%;
+}
+
 @media only screen and (max-width: 479px) {
   .hero-slide-item-2 {
     border: 0;
@@ -5852,26 +5857,26 @@ only screen and (max-width: 767px) {
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start;
-  height: 528px;
+  /* height: 528px; */
   background-color: #fcf6f6;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
 only screen and (max-width: 767px) {
   .about-intro-area {
-    height: 400px;
+    /* height: 400px; */
   }
 }
 
 @media only screen and (max-width: 575px) {
   .about-intro-area {
-    height: 450px;
+    /* height: 450px; */
   }
 }
 
 @media only screen and (max-width: 479px) {
   .about-intro-area {
-    height: 500px;
+    /* height: 500px; */
   }
 }
 
@@ -5916,6 +5921,7 @@ only screen and (max-width: 767px) {
 }
 
 .service-area {
+  background: url(../images/about-image/ABOUT\ BANNER_2.jpg) no-repeat center center/cover;
   background-color: #f0fcfc;
   padding: 60px 0;
 }
@@ -8605,6 +8611,7 @@ only screen and (max-width: 479px) {
     - Breadvrumb  
 =================================*/
 .breadcrumb-area {
+  background-image: url(../images/breadcrumb/Shop\ Banner.jpg);
   background-color: #fcf6f6;
   background-repeat: no-repeat;
   background-position: center center;
@@ -8632,10 +8639,10 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .breadcrumb-area .breadcrumb-title {
-  font-weight: 400;
+  font-weight: bolder;
   text-transform: capitalize;
   font-size: 48px;
-  color: #3c3c3c;
+  color: #ffffff;
   margin: 0;
 }
 
@@ -8650,12 +8657,12 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   font-size: 18px;
   font-weight: 400;
   text-transform: capitalize;
-  color: #3c3c3c;
+  color: #ffffff;
   margin-top: 14px;
 }
 
 .breadcrumb-list li a {
-  color: #3c3c3c;
+  color: #ffffff;
 }
 
 .breadcrumb-list li a:hover {
@@ -8663,7 +8670,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 }
 
 .breadcrumb-list li.active {
-  color: #3c3c3c;
+  color: #ffffff;
 }
 
 .breadcrumb-item+.breadcrumb-item {
@@ -8673,7 +8680,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 .breadcrumb-item+.breadcrumb-item::before {
   display: inline-block;
   padding-right: 10px;
-  color: #3c3c3c;
+  color: #ffffff;
   content: "//";
 }
 
@@ -8708,7 +8715,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
 .deal-bg {
   position: relative;
   background-color: #e7e7e7;
-  background-position: center;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
 }

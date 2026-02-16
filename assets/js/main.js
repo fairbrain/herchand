@@ -166,7 +166,7 @@
         speed: 2000,
         effect: "fade",
         autoplay: {
-            delay: 7000,
+            delay: 5000,
             disableOnInteraction: false,
         },
         // Navigation arrows
